@@ -1,0 +1,10 @@
+.input {
+    width: 286px;
+    height: 456px;
+    flex-shrink: 0;
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: var(--azul, #325D79);
+    
+}
+

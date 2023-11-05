@@ -1,0 +1,24 @@
+.header {
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 100px;
+}
+.header div {
+  height: inherit;
+}
+
+.header div img {
+  height: inherit;
+}
+
+.header .menu {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-top: 10px;
+  
+}
+

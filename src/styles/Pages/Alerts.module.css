@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+.alerts {
+
+    height: 100vh;
+    width: 100vw;
+    border-radius: 8px;
+    border: 2px solid #000;
+    border-radius: 8px;
+
+
+}
+
+.alertContainer {
+    display: grid;
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: left;
+    color: #325D79;
+    font-size: 24px;
+    background-color: #93D7D1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 65px;
+    margin-left: 65px;
+    border: 1px solid #000;
+}
+
+
+.list li {
+    display: grid;
+    list-style: none;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 1.5rem;
+    padding: 5px;
+
+}
+
+.alerts h1 {
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: center
+}
+
+.alerts form {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+
+.alerts select {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    height: 52px;
+    flex-shrink: 0;
+    background-color: #325D79;
+    stroke-width: 0.5px;
+    stroke: #000 solid;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d396"
+    },
+    "description": "Design homepage layout",
+    "department": "Design",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d397"
+    },
+    "description": "Design product logo and branding",
+    "department": "Design",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d398"
+    },
+    "description": "Develop user registration feature",
+    "department": "Developer",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d399"
+    },
+    "description": "Implement payment gateway integration",
+    "department": "Developer",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39a"
+    },
+    "description": "Create test cases for login functionality",
+    "department": "QA",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39b"
+    },
+    "description": "Perform load testing on the server",
+    "department": "QA",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39c"
+    },
+    "description": "Conduct usability testing on the product",
+    "department": "Tester",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39d"
+    },
+    "description": "Write test scripts for the application",
+    "department": "Tester",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39e"
+    },
+    "description": "Architect the database schema",
+    "department": "Arq.",
+    "project": "Sprintify",
+    "completed": false
+  },
+  {
+    "_id": {
+      "$oid": "6531303ab90551e390e3d39f"
+    },
+    "description": "Optimize database queries",
+    "department": "Arq.",
+    "project": "Sprintify",
+    "completed": false
+  }
+]

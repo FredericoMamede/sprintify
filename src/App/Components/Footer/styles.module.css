@@ -1,0 +1,19 @@
+.footer {
+
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  /* border-top: 1px #000 solid; */
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+}
+
+
+.footer h4 {
+
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-end;
+
+}

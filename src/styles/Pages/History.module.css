@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+.history2 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 8px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+
+.history li {
+    display: grid;
+    list-style: none;
+    text-align: center;
+    background-color:#325D79; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 1.3rem;
+    text-align:justify;
+    height: 90px;
+    border: 5px solid #fff;
+    align-content: center;
+    padding: 5px;
+}
+
+.history h1 {
+margin-top: 40px;
+color: var(--orange, #F26627);
+font-family: Marvel;
+font-size: 24px;
+font-style: normal;
+line-height: normal;
+display: flex;
+justify-content: center
+
+}
+

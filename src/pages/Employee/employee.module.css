@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+/*CONTAINER*/
+.employee {
+  display: flex;
+  flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 8px;
+    border: 2px solid #000;
+    background: #FFF;
+}
+
+.body {
+  
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   font-size: 12px;
+   margin: 0;
+}
+
+/*TITLES*/
+
+.body h1 {
+    
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.body h2 {
+  color: var(--orange, #F26627);
+  font-family: Marvel;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.body h3 {
+
+    color: #325D79;
+
+}
+
+/*SPRINT INFORMATION*/
+
+.body .date {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: .5px solid #000;
+  background-color: #325D79;
+  color: #fff;
+  height: 3rem;
+  width: 77%;
+  margin-top: 15px;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 3px;
+}
+
+.body .deadline {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: .5px solid #000;
+  background-color:#9BD7D1;
+  color: #fff;
+  height: 3rem;
+  width: 77%;
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 3px;
+}
+
+/*FEEDBACK BUTTONS*/
+
+.body .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width: 100%; 
+    height: auto;
+    align-items: center; 
+    margin-top: auto; 
+    position:absolute;
+    bottom: 5px;
+    margin-bottom: 180px;
+  }
+
+  
+  
+  .buttons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3;
+    height: 60px;
+    width: 60px;
+  }
+
+
+  /*TASKS LIST*/
+.list li {
+  display: grid;
+  list-style: none;
+  text-align: left;
+  align-content: center;
+  height: 40px;
+  width: 122%;
+  background-color: #325D79;
+  margin-right: 40px;
+  color: #fff;
+  font-size: 1rem;
+  padding: 3px;
+border: .5px solid black;
+
+}
+
+
+.list ul {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 30;
+  width: 90;
+ 
+}
+
+
+/*TASKS BUTTONS*/  
+
+.done {
+
+ background-color: #9BD7D1;
+stroke-width: 0.5px;
+stroke: #FFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.help {
+ 
+ background-color: #325D79;
+stroke-width: 0.5px;
+stroke: #FFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.risk {
+
+ background-color: #F26627;
+stroke-width: 0.5px;
+stroke: #FFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* LOGOUT BUTTON */
+
+.body .GenericButton {
+
+margin-top: 220px;
+}
+
+
+ .arrow {
+  margin-bottom: 75px;
+  margin-left: 30px;
+ 
+}
+
+
+
+.botao {
+
+    margin-top:170px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 35px;
+    width: 100px;
+  }
+  
+  .GenericButton :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }

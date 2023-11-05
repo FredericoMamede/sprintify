@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "65313b9fb90551e390e3d3b0"
+  },
+  "name": "Sprintify",
+  "employees": [
+    {
+      "EmployeeID": "EMP002",
+      "Department": "Design"
+    },
+    {
+      "EmployeeID": "EMP003",
+      "Department": "Developer"
+    },
+    {
+      "EmployeeID": "EMP004",
+      "Department": "QA"
+    },
+    {
+      "EmployeeID": "EMP006",
+      "Department": "Tester"
+    },
+    {
+      "EmployeeID": "EMP0045",
+      "Department": "Arq."
+    }
+  ],
+  "manager": [
+    {
+      "EmployeeID": "EMP001",
+      "Department": "IT"
+    }
+  ]
+}]

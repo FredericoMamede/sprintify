@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+
+.burger {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 8px;
+    border: 2px solid #000;
+   
+}
+
+.menu h1 {
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: center
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    width: 60%;
+    margin-left: 21%;
+    
+}
+
+.menu div {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color:#325D79;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+
+}

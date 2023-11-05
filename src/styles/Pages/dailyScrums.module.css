@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+.daily {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    height: 100vh;
+    width: 100vw;
+  
+  
+}
+
+.scrums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.daily h1 {
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: center
+}
+
+.daily h3 {
+    margin-top: 80px;
+    color:#325D79;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: center
+
+}
+
+
+
+.resc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 20px;
+
+  
+   
+}
+
+.date{
+  margin-top: 10px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: center;
+    border: 1px solid #000;
+    width: 70vw;
+    margin-top: 30px;
+    border-radius: 2px;
+    background-color: #325D79;
+
+}
+
+.buttons{
+display: inherit;
+flex-direction: column;
+align-items: center;    
+}
+
+.genericButton {
+    margin-top: 60px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 50px;
+    width: 70vw;
+  }
+  
+  .GenericButton :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }
+
+  .genericButton2 {
+    margin-top: 60px;
+    align-items: center;
+    appearance: none;
+    background-color: #F26627;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 50px;
+    width: 70vw;
+  }
+  
+  .GenericButton2 :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton2:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton2:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton2:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }
+
+ 
+

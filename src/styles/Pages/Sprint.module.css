@@ -1,0 +1,119 @@
+.sprints {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    border-radius: 8px;
+    border: 2px solid #000;
+    border-radius: 8px; 
+}
+
+.genericButton {
+    margin-left: 150px;
+}
+
+.sprints h1 {
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    display: flex;
+    justify-content: center
+}
+
+.sprints li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    background-color:#325D79; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 40px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: left;
+    height: 150px;
+    border: 5px solid #fff;
+    align-content: center;
+    margin-top: 10px;
+    padding:10px;
+    gap: 10px;
+  }
+
+.sprints li button {
+    margin-left: 75%;
+}
+
+
+
+  .genericButton {
+    margin-top: 50px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 35px;
+    width: 100px;
+  }
+  
+  .GenericButton :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }
+
+
+  .sprintsButton {
+  
+    align-items: center;
+    background-color: #F26627;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    
+  }
+ 
+

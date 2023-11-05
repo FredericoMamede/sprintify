@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel&display=swap");
+
+.step1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid #000;
+    border-radius: 8px;
+
+
+}
+
+.step1 h1 {
+    margin-top: 40px;
+    color: var(--orange, #F26627);
+    font-family: Marvel;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.body {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100wh;
+    height: 100vh;
+}
+
+
+.body form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 70vw;
+    height: 60%;
+    margin-bottom: 50px;
+    background-color:#325D79;
+
+}
+
+.select {
+  width: 100px;
+  background-color: red;
+}
+
+.genericButton {
+  margin-bottom: 100px;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 35px;
+    width: 100px;
+  }
+  
+  .GenericButton :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }

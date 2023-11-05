@@ -1,0 +1,46 @@
+
+.GenericButton {
+
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 0.5px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 35px;
+    width: 100px;
+  }
+  
+  .GenericButton :active {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:focus {
+    border-color: #F26627;
+    outline: 0;
+  }
+  
+  .GenericButton:hover {
+    border-color: #000;
+  }
+  
+  .GenericButton:focus:not(:active) {
+    box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+  }

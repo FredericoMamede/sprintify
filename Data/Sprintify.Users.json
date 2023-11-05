@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d38f"
+  },
+  "EmployeeID": "EMP001",
+  "password": "password123",
+  "role": "manager",
+  "Department": "IT",
+  "name": "Carina",
+  "project": "Sprintify"
+},
+{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d390"
+  },
+  "EmployeeID": "EMP002",
+  "password": "pass456",
+  "role": "employee",
+  "Department": "Design",
+  "name": "Francisco",
+  "project": "Sprintify"
+},
+{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d391"
+  },
+  "EmployeeID": "EMP003",
+  "password": "pass789",
+  "role": "employee",
+  "Department": "Developer",
+  "name": "Rafael",
+  "project": "Sprintify"
+},
+{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d392"
+  },
+  "EmployeeID": "EMP004",
+  "password": "securePwd",
+  "role": "employee",
+  "Department": "QA",
+  "name": "Ariane",
+  "project": "Sprintify"
+},
+{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d393"
+  },
+  "EmployeeID": "EMP0045",
+  "password": "securePwi",
+  "role": "employee",
+  "Department": "Arq.",
+  "name": "Clafael",
+  "project": "Sprintify"
+},
+{
+  "_id": {
+    "$oid": "65312faeb90551e390e3d394"
+  },
+  "EmployeeID": "EMP006",
+  "password": "test123",
+  "role": "employee",
+  "Department": "Tester",
+  "name": "Cláudio",
+  "project": "Sprintify"
+}]
